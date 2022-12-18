@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App(props) {
   return (
-    <Router basename="/Text-Utils-App-Using-React">
+    <Router>
       <div
         id="root"
         className="dark:bg-gray-800 dark:text-gray-300 transition-all"
